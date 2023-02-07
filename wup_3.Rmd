@@ -39,6 +39,12 @@ From looking at the box plot, since the boxes overlap, there appears to be no si
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+The numerical summary confirms the difference in standard deviation.  In addition, although Q3 is much higher in the back row, and the mean is much higher in the back row, we still see that Q1 to Q3 overlap between the rows.
+
 ## Inferential Tests
 
 ## Conclusions
