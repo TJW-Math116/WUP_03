@@ -47,6 +47,13 @@ The numerical summary confirms the difference in standard deviation.  In additio
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The probability from the one-way Anova test is low.  Therefore, we reject the null hypothesis, and there is a significant difference among the groups.  A further test must be performed to identify the specific differences.
+
 ## Conclusions
 
 
