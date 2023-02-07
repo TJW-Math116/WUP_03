@@ -35,6 +35,8 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+From looking at the box plot, since the boxes overlap, there appears to be no significant difference between alcohol consumption and row.  Also, from the notched box plot, the standard deviation of alcohol consumption in the back row looks to be much higher than in the other rows.
+
 ## Numerical Summarys 
 
 ## Inferential Tests
