@@ -54,6 +54,13 @@ summary.aov(model1)
 
 The probability from the one-way Anova test is low.  Therefore, we reject the null hypothesis, and there is a significant difference among the groups.  A further test must be performed to identify the specific differences.
 
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+The Tukey test identified that there is no significant difference between the middle and front groups because the 95% confidence interval contains the value of 0.  However, because the 95% CI are all on one side of zero, there is a signficant difference for alcohol consumed between the middle and back groups and between the front and back groups.
+
 ## Conclusions
 
 
