@@ -63,4 +63,4 @@ The Tukey test identified that there is no significant difference between the mi
 
 ## Conclusions
 
-
+From the initial boxplot and numerical summary, there did not appear to be a significant difference.  However, the one-way Anova test revealed differences between the groups by a low p-value.  The Tukey test was used to perform t-tests between the individual groups and significant differences between the middle and back groups and between the front and back groups were shown.
